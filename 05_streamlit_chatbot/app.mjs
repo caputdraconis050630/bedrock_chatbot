@@ -5,7 +5,7 @@ import {
 
 // Bedrock runtime 생성
 const modelId = "anthropic.claude-3-haiku-20240307-v1:0";
-const bedrockRuntime = new BedrockRuntimeClient({ region: "us-east-1" });
+const bedrockRuntime = new BedrockRuntimeClient({ region: "us-west-2" });
 
 const invokeModelWithResponseStream = async (prompt, responseStream) => {
   const body = {
